@@ -1,1 +1,17 @@
-
+MacBook-Pro-2:git_challenge kskbass$ git init
+Initialized empty Git repository in /Users/kskbass/git_challenge/.git/
+MacBook-Pro-2:git_challenge kskbass$ git add hello_world.txt
+MacBook-Pro-2:git_challenge kskbass$ git commit -m "hello_world.txtを追加"
+[main (root-commit) 65ee39c] hello_world.txtを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+MacBook-Pro-2:git_challenge kskbass$ git status
+On branch main
+nothing to commit, working tree clean
+MacBook-Pro-2:git_challenge kskbass$ git add hello_world.txt
+MacBook-Pro-2:git_challenge kskbass$ git commit -m "日本語訳を追記"
+[main 55ea3f0] 日本語訳を追記
+ 1 file changed, 2 insertions(+)
+MacBook-Pro-2:git_challenge kskbass$ git log --oneline
+55ea3f0 (HEAD -> main) 日本語訳を追記
+65ee39c hello_world.txtを追加
